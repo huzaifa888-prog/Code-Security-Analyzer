@@ -1,0 +1,6 @@
+{
+  "name": "Code Security Analyzer",
+  "description": "An AI-powered tool to analyze code against custom security policies, providing detailed issues, scores, and fix suggestions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
