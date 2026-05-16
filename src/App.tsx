@@ -4,7 +4,6 @@ import {
   Shield, 
   ShieldAlert, 
   ShieldCheck, 
-  Search, 
   Zap, 
   Terminal, 
   AlertTriangle, 
@@ -109,13 +108,6 @@ export default function App() {
               className={`p-2 rounded transition-all duration-200 ${activeTab === 'input' ? 'text-security-accent' : 'text-gray-600 hover:text-white'}`}
             >
               <Terminal className="w-6 h-6" />
-            </button>
-            <button 
-              onClick={() => activeTab === 'result' || result ? setActiveTab('result') : null}
-              disabled={!result && !isLoading}
-              className={`p-2 rounded transition-all duration-200 ${activeTab === 'result' ? 'text-security-accent' : 'text-gray-600 hover:text-white disabled:opacity-20'}`}
-            >
-              <Search className="w-6 h-6" />
             </button>
             <div className="w-6 h-px bg-security-border hidden lg:block" />
             <div className="w-6 h-6 border-2 border-gray-700 rounded-full hidden lg:block" />
